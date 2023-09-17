@@ -1,8 +1,12 @@
-# Validations Skipper :gem:
+<p align="center">
+  <img src="https://i.imgur.com/6xIIecF.png" alt="Validations Skipper Logo" width="300" height="300"/>
+</p>
 
-A repository dedicated to a ruby gem that allows classes to skip desired validations.
+<p align="center">
+  A repository dedicated to a ruby gem that allows classes to skip desired validations.
+</p>
 
-# Why it is necessary?
+## Why it is necessary?
 
 Currently, **the rails only enables to skip all validations** via:
 
@@ -14,15 +18,15 @@ However, sometimes what you want is just to skip one or another validation, **no
 
 With this gem, you can easily skip the validations that you want.
 
-# Instalation
+## Instalation
 
-Add `validations_skipper` to your Gemfile.
+Add `validations-skipper` to your Gemfile.
 
 ```rb
-gem 'validations_skipper'
+gem 'validations-skipper'
 ```
 
-# Usage
+## Usage
 
 1. First it is required to include the `ValidationsSkipable` module on the class you want to enable this feature.
 
